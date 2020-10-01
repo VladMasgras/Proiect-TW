@@ -1,0 +1,37 @@
+ {
+  "nextId": 5,
+  "items2": [
+    {
+      "id": 1,
+      "name": "Nike SB",
+	  "color":"blue",
+      "gender": "male",
+      "price": "15",
+      "photo": "index6.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Converse",
+	  "color":"red",
+      "gender": "female",
+      "price": "20",
+      "photo": "index7.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vans",
+	  "color":"green",
+      "gender": "male",
+      "price": "8",
+      "photo": "index8.jpg"
+    },
+	{
+	  "id": 4,
+      "name": "Adidas",
+	  "color":"blue",
+      "gender": "female",
+      "price": "10",
+      "photo": "index9.jpg"
+	}
+  ]
+} 

@@ -1,0 +1,52 @@
+
+div.intro{
+	font-size: calc(2.5rem + 1vw);
+	text-align: center;
+}
+div.intro a{
+	margin-top: 200px;
+}
+div.intro img{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 100px;
+		width:40%
+}
+table{
+	border-collapse: separate;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:'Yanone Kaffeesatz';
+	font-size:20px;
+	background-color:white;
+	margin-top:50px;
+	border-spacing:0;
+	box-sizing:border-box;
+	
+}
+html,body{
+	min-width:200px;
+}
+th, td{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+td{
+	height: 50px;
+}
+caption{
+	font-size:2rem;
+	text-align:center;
+	font-family: 'Courier new';
+}
+/*@media screen and (max-width: 600px){
+	table {
+		border: 0;
+		width: 100%;
+	}
+
+	
+}*/

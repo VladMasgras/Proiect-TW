@@ -1,0 +1,18 @@
+#wrapper{
+	max-width: 1024px;
+	margin:auto;
+	font-family: 'Courier new', sans-serif;
+}
+ul li{
+	list-style-type: square;
+	font-size: 18px;
+	margin-left: 35px;
+}
+ul li:last-of-type{
+	padding-bottom: 10px;
+}
+blockquote{
+	font-style: italic;
+	display: inline;
+	margin-left: 3%;
+}

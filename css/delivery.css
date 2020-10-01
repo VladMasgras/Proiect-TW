@@ -1,0 +1,19 @@
+#wrapper{
+	margin: auto;
+	max-width: 1024px;
+	font-family: 'Courier new';
+	font-size:1rem;
+	line-height: 27.2px;
+}
+#wrapper section{
+	font-size: 1rem;
+	line-height: 1.7;
+}
+h2{
+	font-size:1.75rem;
+	text-align:center;
+	font-family: 'Courier new';
+}
+aside#note{
+	font-weight:bold;
+}

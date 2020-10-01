@@ -1,0 +1,71 @@
+ {
+  "nextId": 5,
+  "items": [
+    {
+      "id": 1,
+      "name": "T-Shirt",
+	  "color":"green",
+      "gender": "male",
+      "price": "12",
+      "photo": "index.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Trousers",
+	  "color":"red",
+      "gender": "female",
+      "price": "20",
+      "photo": "index3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cap",
+	  "color":"blue",
+      "gender": "male",
+      "price": "5",
+      "photo": "index4.jpg"
+    },
+	{
+	  "id": 4,
+      "name": "Long Sleeve",
+	  "color":"blue",
+      "gender": "female",
+      "price": "14",
+      "photo": "index5.jpg"
+	}
+  ],
+  "items2": [
+    {
+      "id": 1,
+      "name": "Nike SB",
+	  "color":"blue",
+      "gender": "male",
+      "price": "15.4",
+      "photo": "index6.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Converse",
+	  "color":"red",
+      "gender": "female",
+      "price": "20",
+      "photo": "index7.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vans",
+	  "color":"green",
+      "gender": "male",
+      "price": "8.6",
+      "photo": "index8.jpg"
+    },
+	{
+	  "id": 4,
+      "name": "Adidas",
+	  "color":"blue",
+      "gender": "female",
+      "price": "10.2",
+      "photo": "index9.jpg"
+	}
+	]
+} 

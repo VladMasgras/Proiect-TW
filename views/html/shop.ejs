@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> SHOP </title>
+		<meta charset="UTF-8">
+		<meta name="author" content="">
+		<meta name="description" content="SHOP NOW! QUALITY CLOTHING">
+		<meta name="keywords" content="clothing for men,shirts,trousers,tees,beanies,caps">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAlsP8AAKr/AH+HhQAApP8A////ABWp/wATrv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARERERERERERERCIiIiJEREREERFhEUREREQRERERRERERBERERFEREREMREREUREREQREREVRERERBERERFEREQkEREREUJEQhERERERESQhAREREREREkERERIhEREURBERJEIREUREQRJERCEUREREREREREREREREREREREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/general.css">
+		<link rel="stylesheet" type="text/css" href="../css/nav.css">
+		<link rel="stylesheet" type="text/css" href="../css/shop.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+		
+		<script src="../script/myScript.js"></script> 
+		<script src="../script/shop.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+				<%- include ("../fragmente/header") %>
+		</header>
+		<div class="filter">
+		
+		</div>
+		<section class="container content-section clothing">
+            <h2 class="section-header">CLOTHING</h2>
+            <div class="shop-items">
+			<% for (var i = 0; i < items.length; i++){ %>
+                <%- include ("../fragmente/template_item", {item:items[i]}) %>
+            <% } %>
+			</div>
+        </section>
+		<section class="container content-section shoes">
+            <h2 class="section-header">SHOES</h2>
+            <div class="shop-items">
+            <% for (var i = 0; i < items2.length; i++){ %>
+                <%- include ("../fragmente/template_item", {item:items2[i]}) %>
+            <% } %>
+            </div>
+        </section>
+        <section class="container content-section-cart">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+	<footer>
+		<%- include ("../fragmente/footer") %>
+	</footer>
+	</body>
+</html>

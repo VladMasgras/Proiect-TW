@@ -1,0 +1,27 @@
+<h1>fiji dreams</h1>
+<nav class="topnav" id="myTopnav">
+	<a href="/">HOME</a>
+	<a href="/shop">SHOP</a>
+	<a href="/aboutus">ABOUT US</a>
+	<div class="dropdown">
+		<button class="dropbtn">INFO 
+		<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-content">
+			<a href="/marimi">SIZING</a>
+			<a href="/delivery">DELIVERY</a>
+		</div>
+	</div>
+	<a href="/contact" class="right">CONTACT</a>
+	<% if (locals.user){ %>
+	<a href="/logout" class="right">LOGOUT</a>
+	<% } else { %>
+	<a href="/login" class="right">LOGIN</a> 
+	<% } %>
+	<a href="/signup" class="right">SIGN UP</a>
+	<a href="javascript:void(0);" class="icon" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+</nav>
+
+<% if(locals.user){ %>
+		<p class="salut">Salut,<br/><%= user.username %></p>
+<% } %>

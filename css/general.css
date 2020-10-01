@@ -1,0 +1,24 @@
+
+body{
+	font-family: Helvetica;
+	}
+div.intro{
+	font-size: calc(2.5rem + 1vw);
+	text-align: center;
+}
+div.intro a{
+	margin-top: 1vh;
+	display:block;
+}
+div.intro img{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 10vh;
+		width:40%
+}
+footer p{
+	text-align:center;
+	margin:auto;
+	margin-top: 3vh;
+}
